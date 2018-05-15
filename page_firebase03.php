@@ -15,22 +15,17 @@
     </head>
 
     <body>
-      
-            <div id="chatroom">
-                <div id="messages">
-                    <div id="m">
-                        <p class="name">
-                        <p class="message"></p>
-                        </p>
+        <div class="container-fluid">
+                <form class="form-control" id="idUserForm">
+                    <div class="form-control" id="iddivuname" >
+                        <label for="username">Set User Name</label>
+                        <input type="text" id="username" name="username">
                     </div>
-                </div>
-                <div id="input">                    
-                    <textarea id="message" class="form-control " ></textarea>
-                    <button id="send_button" class="btn btn-primary" >Submit</button>
-                </div>
-            </div>    
-        
-
+                    <div class="form-control">
+                        <button id="" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>            
+        </div>
         <!-- Bootstrap core JavaScript
         ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
@@ -42,7 +37,7 @@
         <script>
             firebase.initializeApp(firebase_config);
         </script>
-        <script src="assets/js/firebase_helper02.js" type="text/javascript"></script>
+        <script src="assets/js/firebase_helper03.js" type="text/javascript"></script>
     </body>
 </html>
 

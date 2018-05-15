@@ -59,3 +59,7 @@ body {
     color : #0072c5;
     font-weight: bold;
 }
+.warning{
+    color: red;
+    font-size: 20px;
+}
